@@ -53,37 +53,7 @@ El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo 
 
 ## Estructura del Repositorio
 
-AA_Endometriosis/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── Makefile
-│
-├── data/
-│   ├── raw/            <- Dataset original descargado de Kaggle
-│   ├── interim/        <- Datasets limpios o con transformaciones parciales
-│   └── processed/      <- Datasets finales listos para modelar
-│
-├── notebooks/
-│   ├── 1.0-GC-exploracion.ipynb     <- Análisis exploratorio (EDA)
-│   ├── 2.0-GC-modelado_base.ipynb   <- Modelos base (LogReg y Árbol)
-│   └── 3.0-GC-evaluacion.ipynb      <- Evaluación y comparación de modelos
-│
-├── reports/
-│   ├── figures/        <- Gráficos generados (EDA, curvas ROC, etc.)
-│   ├── metrics/        <- Tablas de métricas, matrices de confusión
-│   └── pdf/            <- Entregas exportadas en PDF
-│
-├── src/
-│   ├── data/           <- Scripts de carga y limpieza
-│   ├── features/       <- Feature engineering y escalado
-│   ├── models/         <- Entrenamiento, evaluación y guardado
-│   └── visualization/  <- Funciones de gráficos reutilizables
-│
-└── references/
-    ├── notas_clase/                <- Apuntes de cátedra
-    └── definiciones_teoricas.md    <- Conceptos y referencias teóricas
+
 
 
 
