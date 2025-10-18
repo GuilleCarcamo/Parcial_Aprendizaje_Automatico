@@ -57,24 +57,47 @@ El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo 
 
 AA_Endometriosis/
 │
-├── README.md # Descripción general del proyecto
-├── LICENSE # Licencia del repositorio
-├── requirements.txt # Librerías necesarias
-├── Makefile # Comandos automáticos (opcional)
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── Makefile
 │
 ├── data/
-│ ├── raw/ # Dataset original descargado de Kaggle
-│ ├── interim/ # Datasets limpios o transformaciones parciales
-│ └── processed/ # Datasets finales listos para modelar
+│   ├── raw/            <- Dataset original descargado de Kaggle
+│   │   └── README.md
+│   ├── interim/        <- Datasets limpios o con transformaciones parciales
+│   │   └── README.md
+│   └── processed/      <- Datasets finales listos para modelar
+│       └── README.md
 │
-├── notebooks/ # Carpeta reservada para los notebooks del proyecto
+├── notebooks/
+│   ├── 1.0-GC-exploracion.ipynb
+│   ├── 2.0-GC-modelado_base.ipynb
+│   └── 3.0-GC-evaluacion.ipynb
 │
 ├── reports/
-│ ├── figures/ # Gráficos generados (EDA, ROC, etc.)
-│ ├── metrics/ # Tablas de resultados y matrices de confusión
-│ └── pdf/ # Entregas exportadas
+│   ├── figures/        <- Gráficos generados (EDA, curvas ROC, etc.)
+│   │   └── README.md
+│   ├── metrics/        <- Tablas de resultados, matrices de confusión
+│   │   └── README.md
+│   └── pdf/            <- Entregas exportadas (para el informe final)
+│       └── README.md
+│
+├── src/
+│   ├── __init__.py
+│   ├── data/           <- Scripts de carga y limpieza de datos
+│   │   └── README.md
+│   ├── features/       <- Feature engineering y escalado
+│   │   └── README.md
+│   ├── models/         <- Entrenamiento, evaluación y guardado de modelos
+│   │   └── README.md
+│   └── visualization/  <- Funciones de gráficos reutilizables
+│       └── README.md
 │
 └── references/
-   └── notas_clase/ # Apuntes o resúmenes teóricos
+    ├── paper_endometriosis.pdf
+    ├── notas_clase/
+    │   └── README.md
+    └── definiciones_teoricas.md
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
