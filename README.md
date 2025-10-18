@@ -1,55 +1,81 @@
-Diagnostico Endometiosis
-==============================
+# Diagnóstico de Endometriosis mediante Aprendizaje Automático
 
-Proyecto de Aprendizaje Automatico para el diagnostico de endometiosis
+##  Contexto
 
-Project Organization
-------------
+Este proyecto se desarrolla en el marco de la materia **Aprendizaje Automático** de la carrera **Ciencia de Datos e Inteligencia Artificial**.  
+El objetivo general es aplicar técnicas de *Machine Learning supervisado* para apoyar el diagnóstico de **endometriosis**, una enfermedad ginecológica crónica que afecta aproximadamente al **10 % de las mujeres en edad reproductiva** (OMS, 2023).
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+---
+
+##  Objetivos del Proyecto
+
+- Predecir la probabilidad de padecer endometriosis a partir de variables clínicas.  
+- Evaluar distintos modelos de clasificación supervisada y comparar su desempeño.  
+- Identificar las variables con mayor influencia en la predicción.  
+- Generar un pipeline reproducible y documentado para futuras extensiones del análisis.
+
+---
+
+##  Dataset
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Fuente** | [Kaggle – Endometriosis Dataset](https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset) |
+| **Registros** | 10.000 (sintéticos, no sensibles) |
+| **Tipo** | Tabular, clínico |
+| **Variable objetivo** | `Diagnosis` (0 = No Endometriosis / 1 = Endometriosis) |
+| **Variables predictoras** | Edad, IMC, nivel de dolor, irregularidad menstrual, alteraciones hormonales, infertilidad, entre otras |
+
+---
+
+##  Metodología
+
+El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo ordenado de análisis:
+
+1. **Exploración y limpieza de datos**  
+   - Análisis descriptivo, detección de valores faltantes y outliers.  
+   - Evaluación del balance de clases y correlaciones entre variables.
+
+2. **Modelado base**  
+   - Implementación de modelos de *Regresión Logística* y *Árbol de Decisión* como líneas base.  
+   - División de datos en entrenamiento y prueba con `train_test_split`.  
+   - Escalado de variables numéricas y codificación de categóricas.
+
+3. **Evaluación comparativa**  
+   - Métricas: Accuracy, Precision, Recall, F1-score y ROC-AUC.  
+   - Matriz de confusión y curvas ROC/Precision-Recall.  
+   - Análisis de importancia de variables.
+
+4. **Informe final**  
+   - Presentación de resultados, conclusiones y recomendaciones.
+
+---
+
+##  Estructura del Repositorio
+
+--------
+
+AA_Endometriosis/
+│
+├── README.md <- Descripción general del proyecto
+├── LICENSE <- Licencia del repositorio
+├── requirements.txt <- Librerías necesarias
+├── Makefile <- Comandos automáticos (opcional)
+│
+├── data/
+│ ├── raw/ <- Dataset original descargado de Kaggle
+│ ├── interim/ <- Datasets limpios o transformaciones parciales
+│ └── processed/ <- Datasets finales listos para modelar
+│
+├── notebooks/ <- Carpeta reservada para los notebooks del proyecto
+│ 
+├── reports/
+│ ├── figures/ <- Gráficos generados (EDA, ROC, etc.)
+│ ├── metrics/ <- Tablas de resultados y matrices de confusión
+│ └── pdf/ <- Entregas exportadas 
+│
+└── references/
+  ├── notas_clase/ <- Apuntes o resúmenes teóricos
 
 
 --------
