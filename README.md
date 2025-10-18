@@ -51,33 +51,30 @@ El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo 
 
 ---
 
-##  Estructura del Repositorio
+## 🧱 Estructura del Repositorio
 
---------
+---
 
 AA_Endometriosis/
 │
-├── README.md <- Descripción general del proyecto
-├── LICENSE <- Licencia del repositorio
-├── requirements.txt <- Librerías necesarias
-├── Makefile <- Comandos automáticos (opcional)
+├── README.md # Descripción general del proyecto
+├── LICENSE # Licencia del repositorio
+├── requirements.txt # Librerías necesarias
+├── Makefile # Comandos automáticos (opcional)
 │
 ├── data/
-│ ├── raw/ <- Dataset original descargado de Kaggle
-│ ├── interim/ <- Datasets limpios o transformaciones parciales
-│ └── processed/ <- Datasets finales listos para modelar
+│ ├── raw/ # Dataset original descargado de Kaggle
+│ ├── interim/ # Datasets limpios o transformaciones parciales
+│ └── processed/ # Datasets finales listos para modelar
 │
-├── notebooks/ <- Carpeta reservada para los notebooks del proyecto
-│ 
+├── notebooks/ # Carpeta reservada para los notebooks del proyecto
+│
 ├── reports/
-│ ├── figures/ <- Gráficos generados (EDA, ROC, etc.)
-│ ├── metrics/ <- Tablas de resultados y matrices de confusión
-│ └── pdf/ <- Entregas exportadas 
+│ ├── figures/ # Gráficos generados (EDA, ROC, etc.)
+│ ├── metrics/ # Tablas de resultados y matrices de confusión
+│ └── pdf/ # Entregas exportadas
 │
 └── references/
-  ├── notas_clase/ <- Apuntes o resúmenes teóricos
-
-
---------
+├── notas_clase/ # Apuntes o resúmenes teóricos
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
