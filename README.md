@@ -9,11 +9,25 @@ El objetivo general es aplicar técnicas de *Machine Learning supervisado* para 
 
 ##  Objetivos del Proyecto
 
-- Predecir la probabilidad de padecer endometriosis a partir de variables clínicas.  
-- Evaluar distintos modelos de clasificación supervisada y comparar su desempeño.  
-- Identificar las variables con mayor influencia en la predicción.  
-- Generar un pipeline reproducible y documentado para futuras extensiones del análisis.
+Desarrollar, entrenar y comparar modelos de clasificación supervisada que permitan estimar la probabilidad de diagnóstico de endometriosis.
 
+**Objetivos específicos**
+
+Realizar una exploración y descripción completa del dataset.
+
+Analizar la relación entre síntomas clínicos y diagnóstico.
+
+Entrenar y comparar múltiples modelos supervisados:
+
+Regresión Logística (modelo base)
+
+Árbol de Decisión
+
+Random Forest
+
+Evaluar el desempeño mediante métricas cuantitativas (Accuracy, Precision, Recall, F1, ROC-AUC) y análisis visual (Curvas ROC, Matriz de Confusión).
+
+Interpretar los resultados desde una perspectiva técnica y aplicada, orientada al apoyo diagnóstico.
 ---
 
 ##  Dataset
@@ -25,29 +39,6 @@ El objetivo general es aplicar técnicas de *Machine Learning supervisado* para 
 | **Tipo** | Tabular, clínico |
 | **Variable objetivo** | `Diagnosis` (0 = No Endometriosis / 1 = Endometriosis) |
 | **Variables predictoras** | Edad, IMC, nivel de dolor, irregularidad menstrual, alteraciones hormonales, infertilidad, entre otras |
-
----
-
-##  Metodología
-
-El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo ordenado de análisis:
-
-1. **Exploración y limpieza de datos**  
-   - Análisis descriptivo, detección de valores faltantes y outliers.  
-   - Evaluación del balance de clases y correlaciones entre variables.
-
-2. **Modelado base**  
-   - Implementación de modelos de *Regresión Logística* y *Árbol de Decisión* como líneas base.  
-   - División de datos en entrenamiento y prueba con `train_test_split`.  
-   - Escalado de variables numéricas y codificación de categóricas.
-
-3. **Evaluación comparativa**  
-   - Métricas: Accuracy, Precision, Recall, F1-score y ROC-AUC.  
-   - Matriz de confusión y curvas ROC/Precision-Recall.  
-   - Análisis de importancia de variables.
-
-4. **Informe final**  
-   - Presentación de resultados, conclusiones y recomendaciones.
 
 ---
 
