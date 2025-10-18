@@ -87,11 +87,3 @@ AA_Endometriosis/
 └── references/
     ├── notas_clase/                <- Apuntes de cátedra
     └── definiciones_teoricas.md    <- Conceptos y referencias teóricas
-
-
-
-
-
-
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
