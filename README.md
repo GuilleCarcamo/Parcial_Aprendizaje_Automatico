@@ -51,7 +51,7 @@ El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo 
 
 ---
 
-## 🧱 Estructura del Repositorio
+## Estructura del Repositorio
 
 ---
 
