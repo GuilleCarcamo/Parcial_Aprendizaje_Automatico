@@ -75,6 +75,6 @@ AA_Endometriosis/
 │ └── pdf/ # Entregas exportadas
 │
 └── references/
-├── notas_clase/ # Apuntes o resúmenes teóricos
+   └── notas_clase/ # Apuntes o resúmenes teóricos
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
