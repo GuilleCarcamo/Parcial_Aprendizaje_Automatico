@@ -1,6 +1,6 @@
 # Notebooks del Proyecto – Aprendizaje Automático
 
-Esta carpeta contiene los **cuadernos de trabajo (Jupyter Notebooks)** desarrollados para el proyecto **Diagnóstico de Endometriosis mediante Aprendizaje Automático**.  
+Esta carpeta contiene los **Jupyter Notebooks** desarrollados para el proyecto **Diagnóstico de Endometriosis mediante Aprendizaje Automático**.  
 Cada notebook corresponde a una **etapa del proceso de análisis y modelado**, siguiendo la metodología del curso.
 
 ---
