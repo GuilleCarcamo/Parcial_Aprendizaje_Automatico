@@ -53,10 +53,10 @@ El trabajo sigue la metodología de **Cookiecutter Data Science**, con un flujo 
 
 ##  Estructura del Repositorio
 
-La siguiente estructura sigue el estándar **Cookiecutter Data Science**, adaptado a proyectos académicos.
+La siguiente estructura sigue el estándar **Cookiecutter Data Science**, adaptado al proyecto.
 
 ```bash
-AA_Endometriosis/
+Parcial_Aprendizaje_Automatico/
 │
 ├── README.md
 ├── LICENSE
