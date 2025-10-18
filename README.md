@@ -67,4 +67,4 @@ Parcial_Aprendizaje_Automatico/
 │   └── pdf/            <- Entregas exportadas en PDF
 │
 └── references/
-    └── notas_clase/                <- Apuntes de cátedra
+    └── notas_clase/                <- Primera Entrega Parcial
