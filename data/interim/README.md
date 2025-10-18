@@ -1,0 +1,1 @@
+Archivos intermedios (limpieza/parcial).

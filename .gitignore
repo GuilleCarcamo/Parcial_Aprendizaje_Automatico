@@ -17,11 +17,9 @@ models/
 *.joblib
 
 # Datos (permitimos un CSV chico de ejemplo si querés)
-data/raw/
-data/interim/
-data/processed/
-data/external/
-!data/README.md
+!data/
+!data/**
+
 
 # Reportes generados
 reports/figures/
