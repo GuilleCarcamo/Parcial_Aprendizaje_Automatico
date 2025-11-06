@@ -9,7 +9,10 @@ Cada notebook corresponde a una **etapa del proceso de análisis y modelado**, s
 
 | Archivo | Descripción | Entrega |
 |----------|--------------|----------|
-| **1.0-GC-exploracion.ipynb** | Carga y descripción del dataset. Incluye cantidad de instancias, variables, tipos de datos, valores nulos y duplicados. | Entrega 2 |
+| **1.0-GC-exploracion.ipynb** | Carga y descripción del dataset. Incluye cantidad de instancias, variables, tipos de datos, valores nulos y duplicados. 
+| **2.0-GC-modelado_base.ipynb** | Entrenamiento de modelos base de clasificación (Regresión Logística y Árbol de Decisión). Incluye métricas, Curva ROC y Matriz de Confusión. 
+| **3.0-GC-evaluacion.ipynb** | Implementación de Random Forest y comparación final con los modelos base. Incluye métricas, Curva ROC e Importancia de Variables. 
+| **4.0-GC-exploracion_PCA.ipynbb** | Análisis exploratorio mediante PCA para detectar colinealidades y visualizar agrupamientos naturales. 
 
 ---
 
