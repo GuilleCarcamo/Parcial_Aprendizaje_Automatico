@@ -1,3 +1,5 @@
+Link del video: https://drive.google.com/file/d/1FHKSuj9sfPevUOm_cQIzaJWwoPLNiuy4/view?usp=sharing
+
 # Diagnóstico de Endometriosis mediante Aprendizaje Automático
 
 ##  Contexto
