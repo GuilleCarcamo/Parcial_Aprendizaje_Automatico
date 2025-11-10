@@ -1,5 +1,7 @@
 # Diagnóstico de Endometriosis mediante Aprendizaje Automático
 
+# Link del video: https://drive.google.com/file/d/1FHKSuj9sfPevUOm_cQIzaJWwoPLNiuy4/view?usp=sharing
+
 ##  Contexto
 
 Este proyecto se desarrolla en el marco de la materia **Aprendizaje Automático** de la carrera **Ciencia de Datos e Inteligencia Artificial**.  
