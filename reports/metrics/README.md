@@ -1,1 +1,0 @@
-Tablas de métricas/matrices.
